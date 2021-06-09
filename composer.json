@@ -1,0 +1,22 @@
+{
+  "name": "cortexmedia/datenhubapi",
+  "type": "library",
+  "description": "Library for the Stadt Ulm Datenhub API",
+  "keywords": ["api","iot","citysens"],
+  "homepage": "https://citysens.de",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthias Schneider",
+      "email": "m.schneider@cortex-media.de",
+      "homepage": "https://cortex-media.de",
+      "role": "Developer"
+    }
+  ],
+
+  "require": {
+    "rmccue/requests": "1.7.0",
+    "ext-apcu": "*",
+    "ext-json": "*"
+  }
+}
